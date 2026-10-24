@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" fill="none">
+  <rect width="800" height="450" fill="#0E1013"/>
+  <rect x="30" y="30" width="740" height="390" rx="12" fill="#1B1F26" stroke="#FFFFFF" stroke-opacity="0.1" stroke-width="2"/>
+  <!-- Alignment Target Crosshair & Wheel -->
+  <circle cx="400" cy="225" r="115" fill="#14181F" stroke="#F5F6F8" stroke-width="3.5"/>
+  <circle cx="400" cy="225" r="72" fill="none" stroke="#FF6A00" stroke-width="3" stroke-dasharray="12 8"/>
+  <circle cx="400" cy="225" r="18" fill="#FFC21A"/>
+  <line x1="250" y1="225" x2="550" y2="225" stroke="#FF6A00" stroke-width="3"/>
+  <line x1="400" y1="75" x2="400" y2="375" stroke="#FF6A00" stroke-width="3"/>
+</svg>

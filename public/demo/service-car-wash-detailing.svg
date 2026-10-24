@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" fill="none">
+  <rect width="800" height="450" fill="#0E1013"/>
+  <rect x="30" y="30" width="740" height="390" rx="12" fill="#1B1F26" stroke="#FFFFFF" stroke-opacity="0.1" stroke-width="2"/>
+  <path d="M210 290 L265 205 L515 205 L580 265 L615 280 L615 320 L195 320 Z" fill="#14181F" stroke="#F5F6F8" stroke-width="3.5"/>
+  <circle cx="285" cy="320" r="34" fill="#0E1013" stroke="#FF6A00" stroke-width="5"/>
+  <circle cx="530" cy="320" r="34" fill="#0E1013" stroke="#FF6A00" stroke-width="5"/>
+  <!-- Sparkles & Foam Bubbles -->
+  <path d="M340 120 L350 148 L378 158 L350 168 L340 196 L330 168 L302 158 L330 148 Z" fill="#FFC21A"/>
+  <path d="M475 110 L482 130 L502 137 L482 144 L475 164 L468 144 L448 137 L468 130 Z" fill="#FF6A00"/>
+  <circle cx="250" cy="160" r="14" fill="none" stroke="#38BDF8" stroke-width="3"/>
+  <circle cx="555" cy="175" r="18" fill="none" stroke="#38BDF8" stroke-width="3"/>
+</svg>

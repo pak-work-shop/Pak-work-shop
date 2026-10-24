@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" fill="none">
+  <rect width="800" height="450" fill="#0E1013"/>
+  <rect x="30" y="30" width="740" height="390" rx="12" fill="#1B1F26" stroke="#FFFFFF" stroke-opacity="0.1" stroke-width="2"/>
+  <!-- 12V Automotive Battery -->
+  <rect x="235" y="150" width="330" height="185" rx="12" fill="#14181F" stroke="#F5F6F8" stroke-width="3.5"/>
+  <rect x="280" y="118" width="48" height="32" rx="4" fill="#FF6A00"/>
+  <rect x="472" y="118" width="48" height="32" rx="4" fill="#2A2F38" stroke="#8A93A3" stroke-width="2"/>
+  <!-- Lightning Bolt -->
+  <polygon points="415,175 365,245 405,245 385,305 445,230 405,230" fill="#FFC21A"/>
+  <!-- Plus & Minus -->
+  <line x1="292" y1="190" x2="316" y2="190" stroke="#FF6A00" stroke-width="4" stroke-linecap="round"/>
+  <line x1="304" y1="178" x2="304" y2="202" stroke="#FF6A00" stroke-width="4" stroke-linecap="round"/>
+  <line x1="484" y1="190" x2="508" y2="190" stroke="#8A93A3" stroke-width="4" stroke-linecap="round"/>
+</svg>

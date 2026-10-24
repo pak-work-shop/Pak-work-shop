@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" fill="none">
+  <rect width="800" height="450" fill="#0E1013"/>
+  <rect x="30" y="30" width="740" height="390" rx="12" fill="#1B1F26" stroke="#FFFFFF" stroke-opacity="0.1" stroke-width="2"/>
+  <!-- Shock Absorber Coil & Steering Wheel -->
+  <rect x="275" y="100" width="44" height="34" rx="6" fill="#2A2F38" stroke="#F5F6F8" stroke-width="3"/>
+  <rect x="285" y="134" width="24" height="175" fill="#14181F" stroke="#8A93A3" stroke-width="2"/>
+  <path d="M255 155 L340 175 L255 195 L340 215 L255 235 L340 255 L255 275" fill="none" stroke="#FF6A00" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="275" y="309" width="44" height="36" rx="6" fill="#2A2F38" stroke="#F5F6F8" stroke-width="3"/>
+  <!-- Steering Wheel -->
+  <circle cx="515" cy="225" r="88" fill="none" stroke="#F5F6F8" stroke-width="10"/>
+  <circle cx="515" cy="225" r="24" fill="#FF6A00"/>
+  <line x1="427" y1="225" x2="491" y2="225" stroke="#8A93A3" stroke-width="8"/>
+  <line x1="539" y1="225" x2="603" y2="225" stroke="#8A93A3" stroke-width="8"/>
+  <line x1="515" y1="249" x2="515" y2="313" stroke="#8A93A3" stroke-width="8"/>
+</svg>

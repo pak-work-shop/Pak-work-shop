@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" fill="none">
+  <rect width="800" height="450" fill="#0E1013"/>
+  <rect x="30" y="30" width="740" height="390" rx="12" fill="#1B1F26" stroke="#FFFFFF" stroke-opacity="0.1" stroke-width="2"/>
+  <!-- Oil Canister & Golden Droplet -->
+  <rect x="240" y="150" width="190" height="190" rx="16" fill="#14181F" stroke="#F5F6F8" stroke-width="3.5"/>
+  <rect x="275" y="115" width="65" height="35" rx="6" fill="#FF6A00"/>
+  <path d="M430 185 L495 145 L495 215 L430 245 Z" fill="#2A2F38" stroke="#F5F6F8" stroke-width="3"/>
+  <!-- Oil Drop -->
+  <path d="M565 160 C565 160 620 230 620 268 C620 298 595 322 565 322 C535 322 510 298 510 268 C510 230 565 160 565 160 Z" fill="#FFC21A" stroke="#FF6A00" stroke-width="4"/>
+</svg>

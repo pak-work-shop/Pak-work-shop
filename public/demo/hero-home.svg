@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="675" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0E1013"/>
+      <stop offset="55%" stop-color="#161A22"/>
+      <stop offset="100%" stop-color="#1B1F26"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="200" y1="100" x2="1000" y2="600" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FF6A00" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#FF6A00" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#FFFFFF" stroke-opacity="0.04" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <rect width="1200" height="675" fill="url(#grid)"/>
+  <circle cx="880" cy="320" r="320" fill="url(#glow)"/>
+  <!-- Workshop Bay Frame & Lift Pillars -->
+  <rect x="620" y="90" width="24" height="460" rx="4" fill="#2A2F38" stroke="#FF6A00" stroke-opacity="0.5" stroke-width="2"/>
+  <rect x="1080" y="90" width="24" height="460" rx="4" fill="#2A2F38" stroke="#FF6A00" stroke-opacity="0.5" stroke-width="2"/>
+  <rect x="600" y="545" width="524" height="16" rx="4" fill="#2A2F38"/>
+  <line x1="644" y1="395" x2="1080" y2="395" stroke="#FF6A00" stroke-width="6"/>
+  <!-- Stylized Car Silhouette on Lift -->
+  <path d="M685 350 L735 280 L930 280 L995 335 L1045 348 L1045 385 L670 385 L670 355 Z" fill="#1B1F26" stroke="#F5F6F8" stroke-width="3"/>
+  <path d="M745 292 L825 292 L825 335 L712 335 Z" fill="#0E1013" stroke="#8A93A3" stroke-width="1.5"/>
+  <path d="M840 292 L922 292 L968 335 L840 335 Z" fill="#0E1013" stroke="#8A93A3" stroke-width="1.5"/>
+  <circle cx="740" cy="385" r="32" fill="#0E1013" stroke="#FF6A00" stroke-width="5"/>
+  <circle cx="740" cy="385" r="14" fill="#2A2F38"/>
+  <circle cx="975" cy="385" r="32" fill="#0E1013" stroke="#FF6A00" stroke-width="5"/>
+  <circle cx="975" cy="385" r="14" fill="#2A2F38"/>
+  <!-- Diagnostic HUD Panel -->
+  <rect x="680" y="130" width="360" height="105" rx="8" fill="#0E1013" fill-opacity="0.85" stroke="#FFFFFF" stroke-opacity="0.15" stroke-width="1.5"/>
+  <polyline points="705,195 745,195 765,160 790,210 815,175 845,195 910,195" fill="none" stroke="#FF6A00" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="965" cy="182" r="26" fill="none" stroke="#FFC21A" stroke-width="4" stroke-dasharray="110 40"/>
+  <rect x="705" y="148" width="90" height="8" rx="4" fill="#8A93A3" fill-opacity="0.4"/>
+</svg>

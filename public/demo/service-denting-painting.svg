@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" fill="none">
+  <rect width="800" height="450" fill="#0E1013"/>
+  <rect x="30" y="30" width="740" height="390" rx="12" fill="#1B1F26" stroke="#FFFFFF" stroke-opacity="0.1" stroke-width="2"/>
+  <circle cx="400" cy="225" r="145" fill="#FF6A00" fill-opacity="0.08"/>
+  <!-- Car Panel & Spray Gun -->
+  <path d="M180 285 L235 205 L430 205 L495 260 L540 275 L540 315 L165 315 Z" fill="#14181F" stroke="#F5F6F8" stroke-width="3.5"/>
+  <path d="M510 155 L585 155 L600 205 L555 205 Z" fill="#2A2F38" stroke="#FFC21A" stroke-width="3"/>
+  <rect x="550" y="115" width="45" height="40" rx="6" fill="#FF6A00"/>
+  <!-- Spray Mist -->
+  <path d="M500 175 L410 140 L410 215 Z" fill="#FF6A00" fill-opacity="0.32"/>
+  <circle cx="385" cy="175" r="6" fill="#FFC21A"/>
+  <circle cx="360" cy="195" r="4" fill="#FF6A00"/>
+  <circle cx="395" cy="205" r="5" fill="#FF6A00"/>
+</svg>

@@ -1,0 +1,173 @@
+@import "tailwindcss";
+
+:root {
+  /* Core Palette Tokens */
+  --color-primary: #FF6A00;
+  --color-primary-hover: #E85F00;
+  --color-accent: #FFC21A;
+  --color-bg-dark: #0E1013;
+  --color-surface-dark: #1B1F26;
+  --color-surface-dark-2: #2A2F38;
+  --color-bg-light: #F5F6F8;
+  --color-text-light: #F5F6F8;
+  --color-text-dark: #12151A;
+  --color-muted: #8A93A3;
+
+  /* Status Colors */
+  --color-success: #16A34A;
+  --color-warning: #D97706;
+  --color-danger: #DC2626;
+  --color-info: #0284C7;
+
+  /* Radii & Shadows */
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --shadow-glow-primary: 0 0 24px -4px rgba(255, 106, 0, 0.45);
+  --shadow-card-dark: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
+  --container-max: 1280px;
+
+  /* Fonts */
+  --font-heading: 'Barlow Condensed', system-ui, -apple-system, sans-serif;
+  --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-urdu: 'Noto Nastaliq Urdu', 'Noto Naskh Arabic', serif;
+}
+
+@theme {
+  --color-primary: var(--color-primary);
+  --color-primary-hover: var(--color-primary-hover);
+  --color-accent: var(--color-accent);
+  --color-bg-dark: var(--color-bg-dark);
+  --color-surface-dark: var(--color-surface-dark);
+  --color-surface-dark-2: var(--color-surface-dark-2);
+  --color-bg-light: var(--color-bg-light);
+  --color-text-light: var(--color-text-light);
+  --color-text-dark: var(--color-text-dark);
+  --color-muted: var(--color-muted);
+  --color-success: var(--color-success);
+  --color-warning: var(--color-warning);
+  --color-danger: var(--color-danger);
+  --color-info: var(--color-info);
+
+  --font-heading: var(--font-heading);
+  --font-sans: var(--font-body);
+  --font-urdu: var(--font-urdu);
+}
+
+/* Base Typography & Language Switching */
+html {
+  font-family: var(--font-body);
+  background-color: var(--color-bg-dark);
+  color: var(--color-text-light);
+  scroll-behavior: smooth;
+}
+
+html[lang="ur"] {
+  font-family: var(--font-urdu);
+  line-height: 2.1;
+}
+
+html[lang="ur"] h1,
+html[lang="ur"] h2,
+html[lang="ur"] h3,
+html[lang="ur"] h4,
+html[lang="ur"] h5,
+html[lang="ur"] h6,
+html[lang="ur"] .font-heading {
+  font-family: var(--font-urdu);
+  line-height: 1.85;
+  letter-spacing: 0 !important;
+}
+
+html:not([lang="ur"]) h1,
+html:not([lang="ur"]) h2,
+html:not([lang="ur"]) h3,
+html:not([lang="ur"]) h4,
+html:not([lang="ur"]) .font-heading {
+  font-family: var(--font-heading);
+}
+
+/* Industrial Hex / Garage Grid Background Motif */
+.bg-industrial-grid {
+  background-color: var(--color-bg-dark);
+  background-image: 
+    radial-gradient(circle at 15% 20%, rgba(255, 106, 0, 0.12) 0%, transparent 45%),
+    radial-gradient(circle at 85% 80%, rgba(255, 194, 26, 0.06) 0%, transparent 40%),
+    linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 100% 100%, 100% 100%, 36px 36px, 36px 36px;
+}
+
+/* Orange Glow Utility */
+.glow-primary:hover {
+  box-shadow: var(--shadow-glow-primary);
+}
+
+/* Heading Underline Accent */
+.heading-accent {
+  position: relative;
+  display: inline-block;
+}
+
+.heading-accent::after {
+  content: '';
+  position: absolute;
+  inset-inline-start: 0;
+  bottom: -0.375rem;
+  width: 3.5rem;
+  height: 0.25rem;
+  background-color: var(--color-primary);
+  border-radius: 2px;
+}
+
+/* RTL Directional Flip Utility */
+[dir="rtl"] .rtl-flip {
+  transform: scaleX(-1);
+}
+
+/* Reduced Motion Compliance */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Clean A4 Invoice Print Stylesheet */
+@media print {
+  @page {
+    size: A4 portrait;
+    margin: 12mm;
+  }
+
+  html,
+  body {
+    background-color: #ffffff !important;
+    color: #12151A !important;
+    font-size: 11pt;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .no-print,
+  header,
+  footer,
+  aside,
+  nav {
+    display: none !important;
+  }
+
+  .print-sheet {
+    box-shadow: none !important;
+    border: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+}
+

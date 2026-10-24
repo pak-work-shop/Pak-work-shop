@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" fill="none">
+  <rect width="800" height="450" fill="#0E1013"/>
+  <rect x="30" y="30" width="740" height="390" rx="12" fill="#1B1F26" stroke="#FFFFFF" stroke-opacity="0.1" stroke-width="2"/>
+  <!-- Inspection Clipboard & Checkmarks -->
+  <rect x="280" y="95" width="240" height="275" rx="12" fill="#14181F" stroke="#F5F6F8" stroke-width="3.5"/>
+  <rect x="345" y="78" width="110" height="34" rx="6" fill="#FF6A00"/>
+  <!-- Checklist Rows -->
+  <polyline points="320,165 332,177 352,153" fill="none" stroke="#FFC21A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="372" y1="165" x2="475" y2="165" stroke="#F5F6F8" stroke-width="4" stroke-linecap="round"/>
+  <polyline points="320,220 332,232 352,208" fill="none" stroke="#FFC21A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="372" y1="220" x2="475" y2="220" stroke="#F5F6F8" stroke-width="4" stroke-linecap="round"/>
+  <polyline points="320,275 332,287 352,263" fill="none" stroke="#FFC21A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="372" y1="275" x2="475" y2="275" stroke="#F5F6F8" stroke-width="4" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,6 @@
+{
+  "name": "Pak Auto Works & Parts",
+  "description": "One-stop auto workshop, service booking, job status tracking, and car parts portal in Pakistan.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

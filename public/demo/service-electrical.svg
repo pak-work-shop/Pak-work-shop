@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" fill="none">
+  <rect width="800" height="450" fill="#0E1013"/>
+  <rect x="30" y="30" width="740" height="390" rx="12" fill="#1B1F26" stroke="#FFFFFF" stroke-opacity="0.1" stroke-width="2"/>
+  <circle cx="400" cy="225" r="145" fill="#FFC21A" fill-opacity="0.08"/>
+  <!-- OBD Scanner & ECU Chip -->
+  <rect x="240" y="120" width="320" height="210" rx="14" fill="#14181F" stroke="#F5F6F8" stroke-width="3"/>
+  <rect x="270" y="150" width="260" height="115" rx="8" fill="#0E1013" stroke="#FF6A00" stroke-width="2"/>
+  <polyline points="295,215 335,215 355,175 380,240 405,190 430,215 505,215" fill="none" stroke="#FFC21A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="315" cy="296" r="12" fill="#FF6A00"/>
+  <rect x="350" y="286" width="80" height="20" rx="4" fill="#2A2F38"/>
+  <rect x="450" y="286" width="80" height="20" rx="4" fill="#2A2F38"/>
+</svg>
