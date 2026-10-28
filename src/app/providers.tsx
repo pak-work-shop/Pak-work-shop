@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { HelmetProvider } from 'react-helmet-async';
 import { Toaster } from 'sonner';
 import { ErrorBoundary } from '../components/common/ErrorBoundary';
+import { BrokenImageFallbacks } from '../components/common/BrokenImageFallbacks';
 import { SiteSettingsProvider } from '../features/settings/SiteSettingsContext';
 import { AuthProvider } from '../features/auth/AuthContext';
 import { VehicleFilterProvider } from '../features/catalogue/VehicleFilterContext';
@@ -18,6 +19,7 @@ export function AppProviders({ children }: { children: React.ReactNode }) {
             <VehicleFilterProvider>
               <CartProvider>
                 <ChatbotProvider>
+                  <BrokenImageFallbacks />
                   {children}
                   <Toaster
                     position="top-center"
