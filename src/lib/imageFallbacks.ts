@@ -9,7 +9,7 @@ import {
 const localFallbacks = new Map<string, string>();
 
 function normalizeImageUrl(rawUrl: string): string {
-  return rawUrl.trim().split(/[?#]/, 1)[0].replace(/\\/+$/, '');
+  return rawUrl.trim().split(/[?#]/, 1)[0].replace(/\/+$/, '');
 }
 
 function registerFallback(sourceUrl: string, fallbackPath: string): void {
@@ -22,7 +22,7 @@ registerFallback(SECTION_A_SITE_IMAGES.about_image_url, '/demo/about-workshop.sv
 registerFallback(SECTION_A_SITE_IMAGES.cta_banner_url, '/demo/cta-banner.svg');
 
 for (const [slug, imageUrl] of Object.entries(SECTION_A_SERVICE_IMAGES)) {
-  registerFallback(imageUrl, `/demo/service-${slug}.svg`);
+  registerFallback(imageUrl, '/demo/service-' + slug + '.svg');
 }
 
 const categoryFallbacks: Record<string, string> = {
