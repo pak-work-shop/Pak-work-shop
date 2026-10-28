@@ -8,6 +8,7 @@ import { Button, EmptyState, Skeleton } from '../../components/ui';
 import { Seo } from '../../components/common/Seo';
 import { PageHeader } from '../../components/common/PageHeader';
 import { ServiceIcon } from '../../components/common/ServiceIcon';
+import { getLocalFallbackForImage } from '../../lib/imageFallbacks';
 import { WorkshopIllustration } from '../../components/common/WorkshopIllustration';
 
 export default function ServicesPage() {
@@ -139,6 +140,12 @@ export default function ServicesPage() {
                           alt={name}
                           loading="lazy"
                           referrerPolicy="no-referrer"
+                          onError={(event) => {
+                            const image = event.currentTarget;
+                            if (image.dataset.imageFallbackApplied === 'true') return;
+                            image.dataset.imageFallbackApplied = 'true';
+                            image.src = getLocalFallbackForImage(imgUrl);
+                          }}
                           className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                         />
                       ) : (
