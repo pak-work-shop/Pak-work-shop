@@ -31,6 +31,7 @@ import {
 } from '../catalogue/useCatalogueData';
 import { CategoryIcon } from '../catalogue/CategoryIllustration';
 import { getCategoryPhoto } from '../../lib/defaultImages';
+import { getLocalFallbackForImage } from '../../lib/imageFallbacks';
 import { ProductCard } from '../catalogue/ProductCard';
 import { getLocalized } from '../../i18n/helpers';
 import { buildWhatsAppUrl } from '../../lib/whatsapp';
@@ -172,9 +173,15 @@ export default function HomePage() {
               alt={settings.business_name || 'Pak Auto Works & Parts'}
               loading="eager"
               referrerPolicy="no-referrer"
+              onError={(event) => {
+                const image = event.currentTarget;
+                if (image.dataset.imageFallbackApplied === 'true') return;
+                image.dataset.imageFallbackApplied = 'true';
+                image.src = getLocalFallbackForImage(heroImageUrl);
+              }}
               className="w-full h-full object-cover"
             />
-            <div className="absolute inset-0 bg-gradient-to-r from-[#0E1013]/95 via-[#0E1013]/85 to-[#0E1013]/70" />
+            <div className="absolute inset-0 bg-gradient-to-r from-[#0E1013]/70 via-[#0E1013]/55 to-[#0E1013]/35" />
           </div>
         )}
 
@@ -780,9 +787,15 @@ export default function HomePage() {
               alt=""
               loading="lazy"
               referrerPolicy="no-referrer"
+              onError={(event) => {
+                const image = event.currentTarget;
+                if (image.dataset.imageFallbackApplied === 'true') return;
+                image.dataset.imageFallbackApplied = 'true';
+                image.src = getLocalFallbackForImage(ctaBannerUrl);
+              }}
               className="w-full h-full object-cover"
             />
-            <div className="absolute inset-0 bg-[#0E1013]/85" />
+            <div className="absolute inset-0 bg-[#0E1013]/60" />
           </div>
         )}
 
