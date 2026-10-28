@@ -7,58 +7,58 @@
 export const SECTION_A_SITE_IMAGES = {
   // A1 — Home page hero image (1600x900)
   hero_image_url:
-    '/demo/hero-home.svg',
+    'https://cdn.phototourl.com/member/2026-10-10-8e816f50-4e8e-4e00-94e3-5873fbb8ff7f.jpg',
   // A2 — About page image (1200x800)
   about_image_url:
-    '/demo/about-workshop.svg',
+    'https://cdn.phototourl.com/member/2026-10-10-b8d3813a-db0c-4906-a73f-127f73bd4c54.jpg',
   // A17 — "Book Now" CTA banner background (1600x600)
   cta_banner_url:
-    '/demo/cta-banner.svg',
+    'https://plain-eeur-prod-public.komododecks.com/202610/10/NuygQByhmXqHCeE5pYYz/image.png',
 } as const;
 
 export const SECTION_A_SERVICE_IMAGES: Record<string, string> = {
   // A3 — Service: Engine Repair & Tuning
   engine:
-    '/demo/service-engine.svg',
+    'https://cdn.phototourl.com/member/2026-10-10-7011f4d3-a3f8-440f-8f49-ff3a3ee31ec7.jpg',
   // A4 — Service: Denting & Painting
   'denting-painting':
-    '/demo/service-denting-painting.svg',
+    'https://cdn.phototourl.com/member/2026-10-10-9a62423f-31c4-4615-8850-269d1f20566d.jpg',
   // A5 — Service: AC Repair & Service
   'ac-repair':
-    '/demo/service-ac-repair.svg',
+    'https://cdn.phototourl.com/member/2026-10-10-fdc8b7bd-9856-4687-a17d-bbb0420cc7b6.jpg',
   // A6 — Service: Auto Electrical
   electrical:
-    '/demo/service-electrical.svg',
+    'https://cdn.phototourl.com/member/2026-10-10-a294f282-375b-41f9-93bb-9ef0f6ad4a76.jpg',
   // A7 — Service: Tyres
   tyres:
-    '/demo/service-tyres.svg',
+    'https://cdn.phototourl.com/member/2026-10-10-bcb1d8b4-42a2-46b4-8d62-2c20900d88d5.jpg',
   // A8 — Service: Car Wash & Detailing
   'car-wash-detailing':
-    '/demo/service-car-wash-detailing.svg',
+    'https://cdn.phototourl.com/member/2026-10-10-64c1c5fc-3470-4c19-8e3c-d36382be33d3.jpg',
   // A9 — Service: Brakes
   brakes:
-    '/demo/service-brakes.svg',
+    'https://cdn.phototourl.com/member/2026-10-10-0ad0e96d-931c-44cf-a41f-49c1fe8aa9b2.jpg',
   // A10 — Service: Suspension & Steering
   'suspension-steering':
-    '/demo/service-suspension-steering.svg',
+    'https://plain-eeur-prod-public.komododecks.com/202610/10/2tdS7EMNiVYKWW8c2s5e/image.png',
   // A11 — Service: Oil Change & Periodic Service
   'oil-change-service':
-    '/demo/service-oil-change-service.svg',
+    'https://plain-eeur-prod-public.komododecks.com/202610/10/s71pHYGAuUiyxdfXpIet/image.jpg',
   // A12 — Service: Battery
   battery:
-    '/demo/service-battery.svg',
+    'https://plain-eeur-prod-public.komododecks.com/202610/10/pxnCdhqNBXOmzKu9ssO6/image.jpg',
   // A13 — Service: Wheel Alignment & Balancing
   'wheel-alignment-balancing':
-    '/demo/service-wheel-alignment-balancing.svg',
+    'https://plain-eeur-prod-public.komododecks.com/202610/10/nwz6vbqK7nSjjDuNVCQD/image.png',
   // A14 — Service: Transmission / Gearbox
   'transmission-gearbox':
-    '/demo/service-transmission-gearbox.svg',
+    'https://plain-eeur-prod-public.komododecks.com/202610/10/kyT8ZxsNWafoe63unrAA/image.png',
   // A15 — Service: Exhaust
   exhaust:
-    '/demo/service-exhaust.svg',
+    'https://plain-eeur-prod-public.komododecks.com/202610/10/7C3GbZs175K7YIKAfCdf/image.png',
   // A16 — Service: General Inspection
   'general-inspection':
-    '/demo/service-general-inspection.svg',
+    'https://plain-eeur-prod-public.komododecks.com/202610/10/PDlNr4YQspgdc2JsDsh7/image.jpg',
 };
 
 export const BRAND_ASSETS = {
@@ -76,44 +76,44 @@ export const BRAND_ASSETS = {
  */
 export const SECTION_C_CATEGORY_IMAGES: Record<string, string> = {
   // C1 — Tyres & Wheels
-  'tyres-wheels': '/demo/service-tyres.svg',
+  'tyres-wheels': 'https://plain-eeur-prod-public.komododecks.com/202610/14/ytnfvcA70GNdIDyZfAMq/image.png',
   // C2 — Batteries
-  batteries: '/demo/service-battery.svg',
+  batteries: 'https://plain-eeur-prod-public.komododecks.com/202610/14/o3W5EwwTRxsH9rffpR6v/image.png',
   // C3 — Engine Oil & Fluids
-  'oils-lubricants': '/demo/service-oil-change-service.svg',
-  'engine-oil-fluids': '/demo/service-oil-change-service.svg',
+  'oils-lubricants': 'https://plain-eeur-prod-public.komododecks.com/202610/14/Bnh6KN8yADd6hcSesOdk/image.png',
+  'engine-oil-fluids': 'https://plain-eeur-prod-public.komododecks.com/202610/14/Bnh6KN8yADd6hcSesOdk/image.png',
   // C4 — Filters
-  filters: '/demo/service-general-inspection.svg',
+  filters: 'https://plain-eeur-prod-public.komododecks.com/202610/14/W2rQDvxbMhm7JcAT4nbG/image.png',
   // C5 — Braking System
-  brakes: '/demo/service-brakes.svg',
-  'braking-system': '/demo/service-brakes.svg',
+  brakes: 'https://plain-eeur-prod-public.komododecks.com/202610/14/98q54OUL7nKF5GujnAhZ/image.png',
+  'braking-system': 'https://plain-eeur-prod-public.komododecks.com/202610/14/98q54OUL7nKF5GujnAhZ/image.png',
   // C6 — Lighting & Bulbs
-  'electrical-lighting': '/demo/service-electrical.svg',
-  'lighting-bulbs': '/demo/service-electrical.svg',
+  'electrical-lighting': 'https://plain-eeur-prod-public.komododecks.com/202610/14/99JTVbuDfcuzyPiokHq5/image.png',
+  'lighting-bulbs': 'https://plain-eeur-prod-public.komododecks.com/202610/14/99JTVbuDfcuzyPiokHq5/image.png',
   // C7 — Wipers (NEW category)
-  wipers: '/demo/service-general-inspection.svg',
+  wipers: 'https://plain-eeur-prod-public.komododecks.com/202610/14/VGawU65tPKznMuC0HDo5/image.png',
   // C8 — Suspension & Steering
-  'suspension-steering': '/demo/service-suspension-steering.svg',
+  'suspension-steering': 'https://plain-eeur-prod-public.komododecks.com/202610/14/VRctkVPtkhZQtm9LTFNx/image.webp',
   // C9 — AC Parts (NEW category)
-  'ac-cooling': '/demo/service-ac-repair.svg',
-  'ac-parts': '/demo/service-ac-repair.svg',
+  'ac-cooling': 'https://plain-eeur-prod-public.komododecks.com/202610/14/IpxAx5ArH5Ouc5BLBRt6/image.png',
+  'ac-parts': 'https://plain-eeur-prod-public.komododecks.com/202610/14/IpxAx5ArH5Ouc5BLBRt6/image.png',
   // C10 — Ignition & Electrical
-  'ignition-electrical': '/demo/service-electrical.svg',
-  'engine-parts': '/demo/service-engine.svg',
+  'ignition-electrical': 'https://plain-eeur-prod-public.komododecks.com/202610/14/WFNTPDUDIXM7GYFLZJa7/image.png',
+  'engine-parts': 'https://plain-eeur-prod-public.komododecks.com/202610/14/WFNTPDUDIXM7GYFLZJa7/image.png',
   // C11 — Belts & Cooling
-  'belts-cooling': '/demo/service-engine.svg',
+  'belts-cooling': 'https://plain-eeur-prod-public.komododecks.com/202610/14/nFh1IXIrxq8VTMN6YGWu/image.jpg',
   // C12 — Exhaust & Intake
-  'exhaust-intake': '/demo/service-exhaust.svg',
+  'exhaust-intake': 'https://plain-eeur-prod-public.komododecks.com/202610/14/UFeavmffaJiDQlmB9lmu/image.webp',
   // C13 — Body & Trim
-  'body-exterior-accessories': '/demo/service-denting-painting.svg',
-  'body-trim': '/demo/service-denting-painting.svg',
+  'body-exterior-accessories': 'https://plain-eeur-prod-public.komododecks.com/202610/14/XnNdMfRGwEFdCfnWP0oj/image.png',
+  'body-trim': 'https://plain-eeur-prod-public.komododecks.com/202610/14/XnNdMfRGwEFdCfnWP0oj/image.png',
   // C14 — Seat Covers & Mats (NEW category)
-  'seat-covers-mats': '/demo/service-car-wash-detailing.svg',
+  'seat-covers-mats': 'https://plain-eeur-prod-public.komododecks.com/202610/14/2z20LsklqwlO39dSpX53/image.png',
   // C15 — Tools & Equipment (NEW category)
-  'tools-equipment': '/demo/service-general-inspection.svg',
+  'tools-equipment': 'https://plain-eeur-prod-public.komododecks.com/202610/14/ITol4athZdM3YPigZ8Uh/image.png',
   // C16 — Car Care & Accessories
-  'interior-car-care': '/demo/service-car-wash-detailing.svg',
-  'car-care-accessories': '/demo/service-car-wash-detailing.svg',
+  'interior-car-care': 'https://plain-eeur-prod-public.komododecks.com/202610/14/P0MbpOozfG0KF1lCnECW/image.png',
+  'car-care-accessories': 'https://plain-eeur-prod-public.komododecks.com/202610/14/P0MbpOozfG0KF1lCnECW/image.png',
 };
 
 const KOMMODO_SHARE_TO_DIRECT_MAP: Record<string, string> = {
