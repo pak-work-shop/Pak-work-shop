@@ -1,6 +1,7 @@
 import React from 'react';
 import { Image as ImageIcon, Settings } from 'lucide-react';
 import { cn } from '../../lib/utils';
+import { getLocalFallbackForImage } from '../../lib/imageFallbacks';
 
 export interface ImageSlotProps {
   label: string;
@@ -43,6 +44,12 @@ export function ImageSlot({
           src={src}
           alt={alt || label}
           referrerPolicy="no-referrer"
+          onError={(event) => {
+            const image = event.currentTarget;
+            if (image.dataset.imageFallbackApplied === 'true') return;
+            image.dataset.imageFallbackApplied = 'true';
+            image.src = getLocalFallbackForImage(src);
+          }}
           className="w-full h-full object-cover"
         />
       </div>
